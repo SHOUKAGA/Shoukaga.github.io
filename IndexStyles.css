@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("static/Images/Tail_Raven_II.png");
+}
+
+body {
+  max-width: 1050px;
+  margin: 0 auto;
+  font-size: 22;
+  padding: 16px;
+  font-family: "Gill Sans MT", sans-serif;;
+}
+
+footer {
+  max-width: 1050px;
+  margin: 0 auto;
+  font-size: 22;
+  padding: 16px;
+  font-family: "Gill Sans MT", sans-serif;;
+}
+dt {
+  font-weight: bold
+}
+.centre {
+    text-align: center;
+}
+
+.logo {
+    width: min(500px,85%);
+}
+
+.note {
+    font-size: 14;
+    text-align: center;
+}
+
+.tab {
+    width: 100%;
+}
+
+iframe {
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+ul > li {
+  margin: min(10px,1%);
+  width: min(260px,45%);
+  height: 90px;
+  border-radius: 20px;
+  border-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul > li:hover {
+  transform: scale(0.95);
+}
+
+li > a {
+  display: block;
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+}
+
+#hide {
+  visibility: hidden;
+}
+
+.codeBox {
+  border-width: 2px;
+  border-color: darkgray;
+  border-style: solid;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  width: 100%;
+  height: 40vh;
+  resize: vertical;
+  padding: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.image {
+  resize: both;
+  overflow: auto;
+}
+
+.tableStyle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table.tableStyle td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 8px;
+}
+
+table.tableStyle tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table.tableStyle thead {
+  background-color: #c0c0c0;
+  font-weight: bold;
+}
+
+p > a {
+  color: #f6bb00;
+}
+
+p > a:hover {
+  background-color: #f6bb00;
+  color: #fefce9;
+}
