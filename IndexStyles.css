@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-image: url("Static/Images/Tail_Raven_II.png");
+  background-image: url("static/Images/Tail_Raven_II.png");
 }
 
 body {
@@ -22,6 +22,7 @@ footer {
 dt {
   font-weight: bold
 }
+
 .centre {
     text-align: center;
 }
@@ -38,6 +39,53 @@ dt {
 .tab {
     width: 100%;
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #b4b1b16c;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #116494;
+  color: white;
+}
+
+
+.bg-image {
+  /* The image used */
+  background-image: url("/static/Images/Tail_Raven_II.png");
+
+  /* Add the blur effect */
+  filter: blur(32px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 iframe {
   border-radius: 20px;
@@ -142,5 +190,4 @@ p > a {
 p > a:hover {
   background-color: #f6bb00;
   color: #fefce9;
-
 }
