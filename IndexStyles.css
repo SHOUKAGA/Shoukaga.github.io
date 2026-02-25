@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  text-align: center;
+  text-align: right;
   font-size: 32;
   padding: 16px
   font-family: "Archivo Black", sans-serif;
@@ -199,6 +199,7 @@ p > a:hover {
   color: #fefce9;
 
 }
+
 
 
 
