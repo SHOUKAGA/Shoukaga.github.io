@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-image: url("Static/Images/Tail_Raven_II.png");
+  background-image: url("static/Images/Tail_Raven_II.png");
 }
 
 body {
@@ -12,7 +12,6 @@ body {
   font-family: "Gill Sans MT", sans-serif;;
 }
 
-
 footer {
   max-width: 1050px;
   margin: 0 auto;
@@ -20,6 +19,7 @@ footer {
   padding: 16px;
   font-family: "Gill Sans MT", sans-serif;;
 }
+
 dt {
   font-weight: bold
 }
@@ -68,7 +68,6 @@ dt {
   background-color: #116494;
   color: white;
 }
-
 
 .bg-image {
   /* The image used */
@@ -191,10 +190,4 @@ p > a {
 p > a:hover {
   background-color: #f6bb00;
   color: #fefce9;
-
 }
-
-
-
-
-
