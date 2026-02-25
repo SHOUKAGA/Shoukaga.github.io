@@ -12,9 +12,9 @@ body {
   font-family: "Gill Sans MT", sans-serif;;
 }
 
-h1 {
+header {
   text-align: center;
-  }
+}
 
 footer {
   max-width: 1050px;
@@ -196,4 +196,5 @@ p > a:hover {
   color: #fefce9;
 
 }
+
 
