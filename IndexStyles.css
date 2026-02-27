@@ -24,6 +24,15 @@ dt {
   font-weight: bold
 }
 
+dd {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+
 .centre {
     text-align: center;
 }
