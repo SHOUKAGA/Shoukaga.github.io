@@ -25,9 +25,9 @@ dt {
 }
 
 dd {
-  color: white; /* Start with white */
+  color: #818589;
   mix-blend-mode: difference; 
-  font-weight: bold; /* Thicker fonts work better with blending */
+  font-weight: bold;
 }
 
 .centre {
@@ -196,4 +196,5 @@ p > a {
 p > a:hover {
   background-color: #f6bb00;
   color: #fefce9;
+
 }
